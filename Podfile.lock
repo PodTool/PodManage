@@ -1,12 +1,15 @@
 PODS:
+  - Masonry (1.0.2)
   - SSZipArchive (1.7)
 
 DEPENDENCIES:
+  - Masonry
   - SSZipArchive
 
 SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   SSZipArchive: 63f8e11cfcc33e03e4cd666b4359ea8bd6facd0c
 
-PODFILE CHECKSUM: e12fb4331cc6eb52069955e5578a07c19c33e74c
+PODFILE CHECKSUM: 2bd55ee05520ce0d51dc2480f3ca197592336de9
 
 COCOAPODS: 1.2.1
