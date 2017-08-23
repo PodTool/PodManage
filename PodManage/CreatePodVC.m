@@ -46,12 +46,6 @@
     self.pathControl.target = self;
     self.pathControl.action = @selector(clickPathControl:);
     self.pathControl.URL = [DataManager sharedInstance].defaultDir;
-    
-    NSString *example = @"/Users/mac/Desktop/TestRuby/TestPod2/Example";
-    [self installPodInDir:example];
-    //打开XCode
-    NSString *workSpaceFile = [NSString stringWithFormat:@"%@/%@.xcworkspace",example,@"TestPod2"];
-    [self openXCodeWithFile:workSpaceFile];
 }
 #pragma mark - private
 - (void)executeCmd:(NSString *)cmd {
@@ -87,10 +81,11 @@
     
     [output setReadabilityHandler:^(NSFileHandle * _Nonnull fileHandler) {
         NSData *data = [fileHandler availableData];
-        NSString *text = [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding];
+        NSString *text = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
         
         NSLog(@"text is %@", text);
     }];
+    
     [podInstallAction launch];
     [podInstallAction waitUntilExit];
 }

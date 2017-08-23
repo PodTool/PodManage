@@ -3,182 +3,172 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		570BDA171F4540AA007870E9 /* Dependency.m in Sources */ = {isa = PBXBuildFile; fileRef = 570BDA161F4540AA007870E9 /* Dependency.m */; };
-		570BDA1A1F454800007870E9 /* PodNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 570BDA191F454800007870E9 /* PodNameCell.m */; };
-		570BDA1D1F454815007870E9 /* PodUrlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 570BDA1C1F454815007870E9 /* PodUrlCell.m */; };
-		570BDA201F454824007870E9 /* PodVersionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 570BDA1F1F454824007870E9 /* PodVersionCell.m */; };
-		5712CAC41F37FC36002D833F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5712CAC31F37FC36002D833F /* AppDelegate.m */; };
-		5712CAC71F37FC36002D833F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5712CAC61F37FC36002D833F /* main.m */; };
-		5712CACC1F37FC36002D833F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5712CACB1F37FC36002D833F /* Assets.xcassets */; };
-		5712CACF1F37FC36002D833F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5712CACD1F37FC36002D833F /* Main.storyboard */; };
-		5712CAD71F3801E0002D833F /* __PodTemplate__.zip in Resources */ = {isa = PBXBuildFile; fileRef = 5712CAD61F3801E0002D833F /* __PodTemplate__.zip */; };
-		572C1CF11F4759DF00F467ED /* SetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 572C1CF01F4759DF00F467ED /* SetVC.m */; };
-		572C1CF41F475AB500F467ED /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 572C1CF31F475AB500F467ED /* DataManager.m */; };
-		574E42A81F46CA90005C9044 /* PodDeleteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574E42A71F46CA90005C9044 /* PodDeleteCell.m */; };
-		574F54651F43F0860028A867 /* CreatePodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F54631F43F0860028A867 /* CreatePodVC.m */; };
-		574F54661F43F0860028A867 /* CreatePodVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 574F54641F43F0860028A867 /* CreatePodVC.xib */; };
-		574F546B1F4447670028A867 /* AddDependenceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F54691F4447670028A867 /* AddDependenceVC.m */; };
-		574F546C1F4447670028A867 /* AddDependenceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 574F546A1F4447670028A867 /* AddDependenceVC.xib */; };
-		577A77EE1F405C0D00459B39 /* RepoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 577A77ED1F405C0D00459B39 /* RepoCell.m */; };
-		577A77F11F405C2A00459B39 /* PodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 577A77F01F405C2A00459B39 /* PodCell.m */; };
-		57E113721F3B0F44004F0B07 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E113711F3B0F44004F0B07 /* MainController.m */; };
-		A7D9121F7A5814E7EDD48F1E /* libPods-PodManage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61C23F65DEE16113D2AD507F /* libPods-PodManage.a */; };
+		573527EA1F4D81D5005B70BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 573527E91F4D81D5005B70BB /* AppDelegate.m */; };
+		573527EF1F4D81D5005B70BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573527EE1F4D81D5005B70BB /* Assets.xcassets */; };
+		573527F51F4D81D5005B70BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 573527F41F4D81D5005B70BB /* main.m */; };
+		573528001F4D8319005B70BB /* AddDependenceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 573527FF1F4D8319005B70BB /* AddDependenceVC.m */; };
+		573528081F4D8326005B70BB /* Dependency.m in Sources */ = {isa = PBXBuildFile; fileRef = 573528041F4D8325005B70BB /* Dependency.m */; };
+		573528091F4D8326005B70BB /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 573528061F4D8326005B70BB /* DataManager.m */; };
+		5735280A1F4D8326005B70BB /* CreatePodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 573528071F4D8326005B70BB /* CreatePodVC.m */; };
+		573528101F4D8336005B70BB /* PodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5735280C1F4D8336005B70BB /* PodCell.m */; };
+		573528111F4D8336005B70BB /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5735280D1F4D8336005B70BB /* MainController.m */; };
+		573528121F4D8336005B70BB /* PodDeleteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5735280E1F4D8336005B70BB /* PodDeleteCell.m */; };
+		573528251F4D8346005B70BB /* PodNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 573528161F4D8344005B70BB /* PodNameCell.m */; };
+		573528271F4D8346005B70BB /* PodUrlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5735281E1F4D8345005B70BB /* PodUrlCell.m */; };
+		573528281F4D8346005B70BB /* RepoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5735281F1F4D8345005B70BB /* RepoCell.m */; };
+		573528291F4D8346005B70BB /* PodVersionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 573528211F4D8346005B70BB /* PodVersionCell.m */; };
+		5735282B1F4D8346005B70BB /* SetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 573528231F4D8346005B70BB /* SetVC.m */; };
+		5735282E1F4D8608005B70BB /* AddDependenceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5735282D1F4D85F7005B70BB /* AddDependenceVC.xib */; };
+		573528331F4D8641005B70BB /* CreatePodVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5735282F1F4D861E005B70BB /* CreatePodVC.xib */; };
+		573528351F4D864D005B70BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573528311F4D863C005B70BB /* Main.storyboard */; };
+		573528361F4D8D22005B70BB /* __PodTemplate__.zip in Resources */ = {isa = PBXBuildFile; fileRef = 573527FC1F4D8318005B70BB /* __PodTemplate__.zip */; };
+		6AC2F94544F87366D9324EF9 /* libPods-PodManage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A777D44C28B18C422548C1A /* libPods-PodManage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		570BDA151F4540AA007870E9 /* Dependency.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dependency.h; sourceTree = "<group>"; };
-		570BDA161F4540AA007870E9 /* Dependency.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dependency.m; sourceTree = "<group>"; };
-		570BDA181F454800007870E9 /* PodNameCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodNameCell.h; sourceTree = "<group>"; };
-		570BDA191F454800007870E9 /* PodNameCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodNameCell.m; sourceTree = "<group>"; };
-		570BDA1B1F454815007870E9 /* PodUrlCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodUrlCell.h; sourceTree = "<group>"; };
-		570BDA1C1F454815007870E9 /* PodUrlCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodUrlCell.m; sourceTree = "<group>"; };
-		570BDA1E1F454824007870E9 /* PodVersionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodVersionCell.h; sourceTree = "<group>"; };
-		570BDA1F1F454824007870E9 /* PodVersionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodVersionCell.m; sourceTree = "<group>"; };
-		5712CABF1F37FC36002D833F /* PodManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodManage.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5712CAC21F37FC36002D833F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5712CAC31F37FC36002D833F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5712CAC61F37FC36002D833F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5712CACB1F37FC36002D833F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5712CACE1F37FC36002D833F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5712CAD01F37FC36002D833F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5712CAD61F3801E0002D833F /* __PodTemplate__.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = __PodTemplate__.zip; sourceTree = "<group>"; };
-		572C1CEF1F4759DF00F467ED /* SetVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetVC.h; sourceTree = "<group>"; };
-		572C1CF01F4759DF00F467ED /* SetVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetVC.m; sourceTree = "<group>"; };
-		572C1CF21F475AB500F467ED /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
-		572C1CF31F475AB500F467ED /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
-		574E42A61F46CA90005C9044 /* PodDeleteCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodDeleteCell.h; sourceTree = "<group>"; };
-		574E42A71F46CA90005C9044 /* PodDeleteCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodDeleteCell.m; sourceTree = "<group>"; };
-		574F54621F43F0860028A867 /* CreatePodVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreatePodVC.h; sourceTree = "<group>"; };
-		574F54631F43F0860028A867 /* CreatePodVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreatePodVC.m; sourceTree = "<group>"; };
-		574F54641F43F0860028A867 /* CreatePodVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreatePodVC.xib; sourceTree = "<group>"; };
-		574F54671F4427E70028A867 /* PodManage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PodManage.entitlements; sourceTree = "<group>"; };
-		574F54681F4447670028A867 /* AddDependenceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddDependenceVC.h; sourceTree = "<group>"; };
-		574F54691F4447670028A867 /* AddDependenceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddDependenceVC.m; sourceTree = "<group>"; };
-		574F546A1F4447670028A867 /* AddDependenceVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddDependenceVC.xib; sourceTree = "<group>"; };
-		577A77EC1F405C0D00459B39 /* RepoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepoCell.h; sourceTree = "<group>"; };
-		577A77ED1F405C0D00459B39 /* RepoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepoCell.m; sourceTree = "<group>"; };
-		577A77EF1F405C2A00459B39 /* PodCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodCell.h; sourceTree = "<group>"; };
-		577A77F01F405C2A00459B39 /* PodCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodCell.m; sourceTree = "<group>"; };
-		57E113701F3B0F44004F0B07 /* MainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
-		57E113711F3B0F44004F0B07 /* MainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
-		61C23F65DEE16113D2AD507F /* libPods-PodManage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PodManage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E14875C664851C35594316C9 /* Pods-PodManage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodManage.release.xcconfig"; path = "Pods/Target Support Files/Pods-PodManage/Pods-PodManage.release.xcconfig"; sourceTree = "<group>"; };
-		FD221BD3F487198318C9B163 /* Pods-PodManage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodManage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PodManage/Pods-PodManage.debug.xcconfig"; sourceTree = "<group>"; };
+		573527E51F4D81D5005B70BB /* PodManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodManage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		573527E81F4D81D5005B70BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		573527E91F4D81D5005B70BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		573527EE1F4D81D5005B70BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		573527F31F4D81D5005B70BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573527F41F4D81D5005B70BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		573527F61F4D81D5005B70BB /* PodManage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PodManage.entitlements; sourceTree = "<group>"; };
+		573527FC1F4D8318005B70BB /* __PodTemplate__.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = __PodTemplate__.zip; sourceTree = "<group>"; };
+		573527FD1F4D8319005B70BB /* AddDependenceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddDependenceVC.h; sourceTree = "<group>"; };
+		573527FF1F4D8319005B70BB /* AddDependenceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddDependenceVC.m; sourceTree = "<group>"; };
+		573528021F4D8325005B70BB /* CreatePodVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreatePodVC.h; sourceTree = "<group>"; };
+		573528031F4D8325005B70BB /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		573528041F4D8325005B70BB /* Dependency.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dependency.m; sourceTree = "<group>"; };
+		573528051F4D8326005B70BB /* Dependency.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dependency.h; sourceTree = "<group>"; };
+		573528061F4D8326005B70BB /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		573528071F4D8326005B70BB /* CreatePodVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreatePodVC.m; sourceTree = "<group>"; };
+		5735280B1F4D8335005B70BB /* PodDeleteCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodDeleteCell.h; sourceTree = "<group>"; };
+		5735280C1F4D8336005B70BB /* PodCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodCell.m; sourceTree = "<group>"; };
+		5735280D1F4D8336005B70BB /* MainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		5735280E1F4D8336005B70BB /* PodDeleteCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodDeleteCell.m; sourceTree = "<group>"; };
+		5735280F1F4D8336005B70BB /* MainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		573528161F4D8344005B70BB /* PodNameCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodNameCell.m; sourceTree = "<group>"; };
+		573528171F4D8344005B70BB /* RepoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepoCell.h; sourceTree = "<group>"; };
+		5735281B1F4D8345005B70BB /* PodUrlCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodUrlCell.h; sourceTree = "<group>"; };
+		5735281C1F4D8345005B70BB /* PodNameCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodNameCell.h; sourceTree = "<group>"; };
+		5735281D1F4D8345005B70BB /* PodVersionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodVersionCell.h; sourceTree = "<group>"; };
+		5735281E1F4D8345005B70BB /* PodUrlCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodUrlCell.m; sourceTree = "<group>"; };
+		5735281F1F4D8345005B70BB /* RepoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepoCell.m; sourceTree = "<group>"; };
+		573528201F4D8346005B70BB /* SetVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetVC.h; sourceTree = "<group>"; };
+		573528211F4D8346005B70BB /* PodVersionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodVersionCell.m; sourceTree = "<group>"; };
+		573528231F4D8346005B70BB /* SetVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetVC.m; sourceTree = "<group>"; };
+		5735282D1F4D85F7005B70BB /* AddDependenceVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddDependenceVC.xib; sourceTree = "<group>"; };
+		5735282F1F4D861E005B70BB /* CreatePodVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreatePodVC.xib; sourceTree = "<group>"; };
+		573528321F4D863C005B70BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A777D44C28B18C422548C1A /* libPods-PodManage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PodManage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2AF2435E863EFB9FA4AABD3 /* Pods-PodManage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodManage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PodManage/Pods-PodManage.debug.xcconfig"; sourceTree = "<group>"; };
+		FBAA858BAD551D93DEF56351 /* Pods-PodManage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodManage.release.xcconfig"; path = "Pods/Target Support Files/Pods-PodManage/Pods-PodManage.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5712CABC1F37FC36002D833F /* Frameworks */ = {
+		573527E21F4D81D5005B70BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7D9121F7A5814E7EDD48F1E /* libPods-PodManage.a in Frameworks */,
+				6AC2F94544F87366D9324EF9 /* libPods-PodManage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5712CAB61F37FC36002D833F = {
+		573527DC1F4D81D5005B70BB = {
 			isa = PBXGroup;
 			children = (
-				5712CAC11F37FC36002D833F /* PodManage */,
-				5712CAC01F37FC36002D833F /* Products */,
-				DA9EF30731883F0DDFE525F3 /* Pods */,
-				98038C944A4AEA03B1E6ACE1 /* Frameworks */,
+				573527E71F4D81D5005B70BB /* PodManage */,
+				573527E61F4D81D5005B70BB /* Products */,
+				A5EE99226CC18E1C8895DACF /* Pods */,
+				CAF0D921378FAA6F11263929 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		5712CAC01F37FC36002D833F /* Products */ = {
+		573527E61F4D81D5005B70BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5712CABF1F37FC36002D833F /* PodManage.app */,
+				573527E51F4D81D5005B70BB /* PodManage.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5712CAC11F37FC36002D833F /* PodManage */ = {
+		573527E71F4D81D5005B70BB /* PodManage */ = {
 			isa = PBXGroup;
 			children = (
-				574F54671F4427E70028A867 /* PodManage.entitlements */,
-				5712CAD61F3801E0002D833F /* __PodTemplate__.zip */,
-				5712CAC21F37FC36002D833F /* AppDelegate.h */,
-				5712CAC31F37FC36002D833F /* AppDelegate.m */,
-				57E113701F3B0F44004F0B07 /* MainController.h */,
-				57E113711F3B0F44004F0B07 /* MainController.m */,
-				572C1CEF1F4759DF00F467ED /* SetVC.h */,
-				572C1CF01F4759DF00F467ED /* SetVC.m */,
-				572C1CF21F475AB500F467ED /* DataManager.h */,
-				572C1CF31F475AB500F467ED /* DataManager.m */,
-				574F54621F43F0860028A867 /* CreatePodVC.h */,
-				574F54631F43F0860028A867 /* CreatePodVC.m */,
-				574F54641F43F0860028A867 /* CreatePodVC.xib */,
-				574F54681F4447670028A867 /* AddDependenceVC.h */,
-				574F54691F4447670028A867 /* AddDependenceVC.m */,
-				574F546A1F4447670028A867 /* AddDependenceVC.xib */,
-				574E42A61F46CA90005C9044 /* PodDeleteCell.h */,
-				574E42A71F46CA90005C9044 /* PodDeleteCell.m */,
-				570BDA181F454800007870E9 /* PodNameCell.h */,
-				570BDA191F454800007870E9 /* PodNameCell.m */,
-				570BDA1B1F454815007870E9 /* PodUrlCell.h */,
-				570BDA1C1F454815007870E9 /* PodUrlCell.m */,
-				570BDA1E1F454824007870E9 /* PodVersionCell.h */,
-				570BDA1F1F454824007870E9 /* PodVersionCell.m */,
-				570BDA151F4540AA007870E9 /* Dependency.h */,
-				570BDA161F4540AA007870E9 /* Dependency.m */,
-				577A77EC1F405C0D00459B39 /* RepoCell.h */,
-				577A77ED1F405C0D00459B39 /* RepoCell.m */,
-				577A77EF1F405C2A00459B39 /* PodCell.h */,
-				577A77F01F405C2A00459B39 /* PodCell.m */,
-				5712CACB1F37FC36002D833F /* Assets.xcassets */,
-				5712CACD1F37FC36002D833F /* Main.storyboard */,
-				5712CAD01F37FC36002D833F /* Info.plist */,
-				5712CAC51F37FC36002D833F /* Supporting Files */,
+				573527FC1F4D8318005B70BB /* __PodTemplate__.zip */,
+				573527FD1F4D8319005B70BB /* AddDependenceVC.h */,
+				573527FF1F4D8319005B70BB /* AddDependenceVC.m */,
+				5735282D1F4D85F7005B70BB /* AddDependenceVC.xib */,
+				573528021F4D8325005B70BB /* CreatePodVC.h */,
+				573528071F4D8326005B70BB /* CreatePodVC.m */,
+				5735282F1F4D861E005B70BB /* CreatePodVC.xib */,
+				573528031F4D8325005B70BB /* DataManager.h */,
+				573528061F4D8326005B70BB /* DataManager.m */,
+				573528051F4D8326005B70BB /* Dependency.h */,
+				573528041F4D8325005B70BB /* Dependency.m */,
+				573527E81F4D81D5005B70BB /* AppDelegate.h */,
+				573527E91F4D81D5005B70BB /* AppDelegate.m */,
+				5735280F1F4D8336005B70BB /* MainController.h */,
+				5735280D1F4D8336005B70BB /* MainController.m */,
+				5735280C1F4D8336005B70BB /* PodCell.m */,
+				5735280B1F4D8335005B70BB /* PodDeleteCell.h */,
+				5735280E1F4D8336005B70BB /* PodDeleteCell.m */,
+				5735281C1F4D8345005B70BB /* PodNameCell.h */,
+				573528161F4D8344005B70BB /* PodNameCell.m */,
+				5735281B1F4D8345005B70BB /* PodUrlCell.h */,
+				5735281E1F4D8345005B70BB /* PodUrlCell.m */,
+				5735281D1F4D8345005B70BB /* PodVersionCell.h */,
+				573528211F4D8346005B70BB /* PodVersionCell.m */,
+				573528171F4D8344005B70BB /* RepoCell.h */,
+				5735281F1F4D8345005B70BB /* RepoCell.m */,
+				573528201F4D8346005B70BB /* SetVC.h */,
+				573528231F4D8346005B70BB /* SetVC.m */,
+				573528311F4D863C005B70BB /* Main.storyboard */,
+				573527EE1F4D81D5005B70BB /* Assets.xcassets */,
+				573527F31F4D81D5005B70BB /* Info.plist */,
+				573527F41F4D81D5005B70BB /* main.m */,
+				573527F61F4D81D5005B70BB /* PodManage.entitlements */,
 			);
 			path = PodManage;
 			sourceTree = "<group>";
 		};
-		5712CAC51F37FC36002D833F /* Supporting Files */ = {
+		A5EE99226CC18E1C8895DACF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5712CAC61F37FC36002D833F /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		98038C944A4AEA03B1E6ACE1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				61C23F65DEE16113D2AD507F /* libPods-PodManage.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DA9EF30731883F0DDFE525F3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FD221BD3F487198318C9B163 /* Pods-PodManage.debug.xcconfig */,
-				E14875C664851C35594316C9 /* Pods-PodManage.release.xcconfig */,
+				F2AF2435E863EFB9FA4AABD3 /* Pods-PodManage.debug.xcconfig */,
+				FBAA858BAD551D93DEF56351 /* Pods-PodManage.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CAF0D921378FAA6F11263929 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A777D44C28B18C422548C1A /* libPods-PodManage.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5712CABE1F37FC36002D833F /* PodManage */ = {
+		573527E41F4D81D5005B70BB /* PodManage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5712CAD31F37FC36002D833F /* Build configuration list for PBXNativeTarget "PodManage" */;
+			buildConfigurationList = 573527F91F4D81D5005B70BB /* Build configuration list for PBXNativeTarget "PodManage" */;
 			buildPhases = (
-				5528A1B6EFC69AC53251C212 /* [CP] Check Pods Manifest.lock */,
-				5712CABB1F37FC36002D833F /* Sources */,
-				5712CABC1F37FC36002D833F /* Frameworks */,
-				5712CABD1F37FC36002D833F /* Resources */,
-				DBD6EE57BE5FD557B28C1DB4 /* [CP] Embed Pods Frameworks */,
-				15397A006D90988F24838906 /* [CP] Copy Pods Resources */,
+				9029360571B540AD39F390F8 /* [CP] Check Pods Manifest.lock */,
+				573527E11F4D81D5005B70BB /* Sources */,
+				573527E21F4D81D5005B70BB /* Frameworks */,
+				573527E31F4D81D5005B70BB /* Resources */,
+				E482A5298ACADC393F6DE6D8 /* [CP] Embed Pods Frameworks */,
+				1B3D67D24FA7A403C8A41B97 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,65 +176,63 @@
 			);
 			name = PodManage;
 			productName = PodManage;
-			productReference = 5712CABF1F37FC36002D833F /* PodManage.app */;
+			productReference = 573527E51F4D81D5005B70BB /* PodManage.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5712CAB71F37FC36002D833F /* Project object */ = {
+		573527DD1F4D81D5005B70BB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = wanxue;
 				TargetAttributes = {
-					5712CABE1F37FC36002D833F = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 3FNX44KFW5;
-						ProvisioningStyle = Automatic;
+					573527E41F4D81D5005B70BB = {
+						CreatedOnToolsVersion = 9.0;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
 				};
 			};
-			buildConfigurationList = 5712CABA1F37FC36002D833F /* Build configuration list for PBXProject "PodManage" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 573527E01F4D81D5005B70BB /* Build configuration list for PBXProject "PodManage" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 5712CAB61F37FC36002D833F;
-			productRefGroup = 5712CAC01F37FC36002D833F /* Products */;
+			mainGroup = 573527DC1F4D81D5005B70BB;
+			productRefGroup = 573527E61F4D81D5005B70BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5712CABE1F37FC36002D833F /* PodManage */,
+				573527E41F4D81D5005B70BB /* PodManage */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5712CABD1F37FC36002D833F /* Resources */ = {
+		573527E31F4D81D5005B70BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				574F54661F43F0860028A867 /* CreatePodVC.xib in Resources */,
-				5712CAD71F3801E0002D833F /* __PodTemplate__.zip in Resources */,
-				5712CACC1F37FC36002D833F /* Assets.xcassets in Resources */,
-				574F546C1F4447670028A867 /* AddDependenceVC.xib in Resources */,
-				5712CACF1F37FC36002D833F /* Main.storyboard in Resources */,
+				573528361F4D8D22005B70BB /* __PodTemplate__.zip in Resources */,
+				573528351F4D864D005B70BB /* Main.storyboard in Resources */,
+				573528331F4D8641005B70BB /* CreatePodVC.xib in Resources */,
+				5735282E1F4D8608005B70BB /* AddDependenceVC.xib in Resources */,
+				573527EF1F4D81D5005B70BB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		15397A006D90988F24838906 /* [CP] Copy Pods Resources */ = {
+		1B3D67D24FA7A403C8A41B97 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,7 +247,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PodManage/Pods-PodManage-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5528A1B6EFC69AC53251C212 /* [CP] Check Pods Manifest.lock */ = {
+		9029360571B540AD39F390F8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -274,7 +262,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		DBD6EE57BE5FD557B28C1DB4 /* [CP] Embed Pods Frameworks */ = {
+		E482A5298ACADC393F6DE6D8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -292,34 +280,34 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5712CABB1F37FC36002D833F /* Sources */ = {
+		573527E11F4D81D5005B70BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				572C1CF11F4759DF00F467ED /* SetVC.m in Sources */,
-				57E113721F3B0F44004F0B07 /* MainController.m in Sources */,
-				570BDA1A1F454800007870E9 /* PodNameCell.m in Sources */,
-				577A77EE1F405C0D00459B39 /* RepoCell.m in Sources */,
-				577A77F11F405C2A00459B39 /* PodCell.m in Sources */,
-				574E42A81F46CA90005C9044 /* PodDeleteCell.m in Sources */,
-				574F546B1F4447670028A867 /* AddDependenceVC.m in Sources */,
-				570BDA1D1F454815007870E9 /* PodUrlCell.m in Sources */,
-				5712CAC71F37FC36002D833F /* main.m in Sources */,
-				572C1CF41F475AB500F467ED /* DataManager.m in Sources */,
-				570BDA201F454824007870E9 /* PodVersionCell.m in Sources */,
-				574F54651F43F0860028A867 /* CreatePodVC.m in Sources */,
-				570BDA171F4540AA007870E9 /* Dependency.m in Sources */,
-				5712CAC41F37FC36002D833F /* AppDelegate.m in Sources */,
+				573528111F4D8336005B70BB /* MainController.m in Sources */,
+				573528281F4D8346005B70BB /* RepoCell.m in Sources */,
+				5735282B1F4D8346005B70BB /* SetVC.m in Sources */,
+				573528121F4D8336005B70BB /* PodDeleteCell.m in Sources */,
+				573528291F4D8346005B70BB /* PodVersionCell.m in Sources */,
+				573528091F4D8326005B70BB /* DataManager.m in Sources */,
+				573528251F4D8346005B70BB /* PodNameCell.m in Sources */,
+				573528081F4D8326005B70BB /* Dependency.m in Sources */,
+				573528271F4D8346005B70BB /* PodUrlCell.m in Sources */,
+				573528001F4D8319005B70BB /* AddDependenceVC.m in Sources */,
+				573527F51F4D81D5005B70BB /* main.m in Sources */,
+				5735280A1F4D8326005B70BB /* CreatePodVC.m in Sources */,
+				573527EA1F4D81D5005B70BB /* AppDelegate.m in Sources */,
+				573528101F4D8336005B70BB /* PodCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5712CACD1F37FC36002D833F /* Main.storyboard */ = {
+		573528311F4D863C005B70BB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5712CACE1F37FC36002D833F /* Base */,
+				573528321F4D863C005B70BB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -327,13 +315,13 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5712CAD11F37FC36002D833F /* Debug */ = {
+		573527F71F4D81D5005B70BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -353,14 +341,15 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -381,13 +370,13 @@
 			};
 			name = Debug;
 		};
-		5712CAD21F37FC36002D833F /* Release */ = {
+		573527F81F4D81D5005B70BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -407,14 +396,15 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -428,12 +418,11 @@
 			};
 			name = Release;
 		};
-		5712CAD41F37FC36002D833F /* Debug */ = {
+		573527FA1F4D81D5005B70BB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD221BD3F487198318C9B163 /* Pods-PodManage.debug.xcconfig */;
+			baseConfigurationReference = F2AF2435E863EFB9FA4AABD3 /* Pods-PodManage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = PodManage/PodManage.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3FNX44KFW5;
 				INFOPLIST_FILE = PodManage/Info.plist;
@@ -443,12 +432,11 @@
 			};
 			name = Debug;
 		};
-		5712CAD51F37FC36002D833F /* Release */ = {
+		573527FB1F4D81D5005B70BB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E14875C664851C35594316C9 /* Pods-PodManage.release.xcconfig */;
+			baseConfigurationReference = FBAA858BAD551D93DEF56351 /* Pods-PodManage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = PodManage/PodManage.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3FNX44KFW5;
 				INFOPLIST_FILE = PodManage/Info.plist;
@@ -461,25 +449,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5712CABA1F37FC36002D833F /* Build configuration list for PBXProject "PodManage" */ = {
+		573527E01F4D81D5005B70BB /* Build configuration list for PBXProject "PodManage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5712CAD11F37FC36002D833F /* Debug */,
-				5712CAD21F37FC36002D833F /* Release */,
+				573527F71F4D81D5005B70BB /* Debug */,
+				573527F81F4D81D5005B70BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5712CAD31F37FC36002D833F /* Build configuration list for PBXNativeTarget "PodManage" */ = {
+		573527F91F4D81D5005B70BB /* Build configuration list for PBXNativeTarget "PodManage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5712CAD41F37FC36002D833F /* Debug */,
-				5712CAD51F37FC36002D833F /* Release */,
+				573527FA1F4D81D5005B70BB /* Debug */,
+				573527FB1F4D81D5005B70BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5712CAB71F37FC36002D833F /* Project object */;
+	rootObject = 573527DD1F4D81D5005B70BB /* Project object */;
 }
