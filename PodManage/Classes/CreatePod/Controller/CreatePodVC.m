@@ -282,6 +282,7 @@
     [array removeObjectAtIndex:location];
     [array addObject:clickItem];
     pathControl.pathItems = array;
+    pathControl.URL = clickItem.URL;
 }
 - (void)pathControl:(NSPathControl *)pathControl willDisplayOpenPanel:(NSOpenPanel *)openPanel {
     
