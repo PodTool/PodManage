@@ -9,8 +9,7 @@
 
 @interface PodCell ()
 
-@property (weak) IBOutlet NSTextField *nameLabel;
-@property (weak) IBOutlet NSTextField *versionLabel;
+
 
 
 @end

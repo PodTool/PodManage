@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "RepoModel.h"
 
 extern NSString *const SSUserNameKey;
 extern NSString *const SSUserEmailKey;
 extern NSString *const SSDemoPrefix;
 extern NSString *const SSDefaultDir;
-
 
 @interface DataManager: NSObject
 
@@ -25,7 +25,7 @@ extern NSString *const SSDefaultDir;
 ///demo里面类的前缀
 @property (copy,nonatomic) NSString *prefix;
 ///所有的repo仓库
-@property (strong,nonatomic) NSArray *repoDataArray;
+@property (strong,nonatomic) NSMutableArray<RepoModel *> *repoDataArray;
 ///创建repo仓库默认的目录,默认是上一次创建pod的目录，如果上一次没有，则是桌面
 @property (strong,nonatomic) NSURL *defaultDir;
 ///保存作者的名字
@@ -36,6 +36,9 @@ extern NSString *const SSDefaultDir;
 - (void)savePrefix:(NSString *)prefix;
 ///保存上次用过的目录
 - (void)saveDefaultDir:(NSString *)dir;
-
+///保存repo 和 pod 的数据
+- (void)saveRepoData;
+///清除repoData
+- (void)cleanRepoData;
 
 @end

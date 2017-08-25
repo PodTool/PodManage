@@ -10,7 +10,8 @@
 #import "Dependency.h"
 
 @interface AddDependenceVC : NSViewController
-
+///设置初始数据
+@property (strong,nonatomic) NSArray *originDataArray;
 @property (copy,nonatomic) void(^finishBlock)(NSArray<Dependency *> *);
 
 @end

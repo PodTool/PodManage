@@ -10,7 +10,8 @@
 
 @interface PodCell: NSTableCellView
 
-
+@property (weak) IBOutlet NSTextField *nameLabel;
+@property (weak) IBOutlet NSTextField *versionLabel;
 
 
 @end

@@ -41,7 +41,9 @@
 
 - (void)setUpData {
 
-    
+    self.userNameTF.stringValue = [DataManager sharedInstance].userName;
+    self.emailTF.stringValue = [DataManager sharedInstance].userEmail;
+    self.demoPrefix.stringValue = [DataManager sharedInstance].prefix;
 }
 - (void)setUpSubView {
     

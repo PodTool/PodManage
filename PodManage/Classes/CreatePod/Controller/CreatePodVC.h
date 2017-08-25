@@ -7,7 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "PodModel.h"
 
 @interface CreatePodVC : NSViewController
+
+@property (copy,nonatomic) NSString *repoName;
+@property (copy,nonatomic) void (^finishBlock)(PodModel *podModel);
 
 @end

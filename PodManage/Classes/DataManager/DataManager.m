@@ -12,6 +12,7 @@ NSString *const SSUserEmailKey = @"SSUserEmailKey";
 NSString *const SSDemoPrefix = @"SSDemoPrefix";
 NSString *const SSDefaultDir = @"SSDefaultDir";
 
+#define kRepoDataPath [[NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"repoData.archive"]
 
 @interface DataManager ()
 
@@ -85,7 +86,21 @@ NSString *const SSDefaultDir = @"SSDefaultDir";
     [defaults setObject:dir forKey:SSDefaultDir];
     self.defaultDir = [NSURL fileURLWithPath:dir];
 }
+///保存repo 和 pod 的数据
+- (void)saveRepoData {
 
+    if (self.repoDataArray.count == 0) {
+        
+        return;
+    }
+    [NSKeyedArchiver archiveRootObject:self.repoDataArray toFile:kRepoDataPath];
+}
+///清除repoData
+- (void)cleanRepoData {
+
+    NSFileManager *manager = [NSFileManager defaultManager];
+    [manager removeItemAtPath:kRepoDataPath error:nil];
+}
 #pragma mark - delegate
 
 #pragma mark - event response
@@ -134,6 +149,15 @@ NSString *const SSDefaultDir = @"SSDefaultDir";
         }
     }
     return _defaultDir;
+}
+- (NSMutableArray *)repoDataArray {
+    
+    if (!_repoDataArray) {
+        
+        NSArray *array = [NSKeyedUnarchiver unarchiveObjectWithFile:kRepoDataPath];;
+        _repoDataArray = [[NSMutableArray alloc] initWithArray:array];
+    }
+    return _repoDataArray;
 }
 
 @end

@@ -13,6 +13,7 @@
 
 @implementation Dependency
 
+MJCodingImplementation
 
 #pragma mark - life cycle
 - (void)dealloc {

@@ -37,20 +37,8 @@
 #pragma mark - private
 - (void)setUpData {
     
-//    for (NSInteger i = 0; i < 10; i++) {
-//
-//        NSString *podName = [NSString stringWithFormat:@"PodName%zd",i];
-//        NSString *url = [NSString stringWithFormat:@"PodUrl%zd",i];
-//        NSString *version = [NSString stringWithFormat:@"version%zd",i];
-//
-//        Dependency *depend = [[Dependency alloc] init];
-//        depend.podName = podName;
-//        depend.podSpecUrl = url;
-//        depend.version = version;
-//
-//        [self.dataArray addObject:depend];
-//    }
-//    [self.tableView reloadData];
+    [self.dataArray addObjectsFromArray:self.originDataArray];
+    [self.tableView reloadData];
 }
 #pragma mark - PodDeleteCellDelegate
 - (void)didClickDeleteBtnAtCell:(PodDeleteCell *)cell {
@@ -107,17 +95,6 @@
     
     return YES;
 }
-- (NSArray<NSTableViewRowAction *> *)tableView:(NSTableView *)tableView rowActionsForRow:(NSInteger)row edge:(NSTableRowActionEdge)edge {
-    
-    NSTableViewRowAction *action = [NSTableViewRowAction rowActionWithStyle:NSTableViewRowActionStyleRegular title:@"删除" handler:^(NSTableViewRowAction * _Nonnull action, NSInteger row) {
-        
-        [self.dataArray removeObjectAtIndex:row];
-        NSIndexSet *indexSet = [NSIndexSet indexSetWithIndex:row];
-        [self.tableView removeRowsAtIndexes:indexSet withAnimation:NSTableViewAnimationEffectFade];
-    }];
-    return @[action];
-}
-
 #pragma mark - event response
 - (IBAction)addAction:(NSButton *)sender {
     
