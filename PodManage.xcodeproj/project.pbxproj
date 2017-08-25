@@ -13,6 +13,8 @@
 		573F42F61F4EC99A004A7270 /* CreateRepo.m in Sources */ = {isa = PBXBuildFile; fileRef = 573F42F41F4EC99A004A7270 /* CreateRepo.m */; };
 		573F42F71F4EC99A004A7270 /* CreateRepo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573F42F51F4EC99A004A7270 /* CreateRepo.xib */; };
 		573F42FA1F4EE6D6004A7270 /* RepoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 573F42F91F4EE6D6004A7270 /* RepoModel.m */; };
+		57518D3A1F500F43000F668E /* PodDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 57518D381F500F43000F668E /* PodDetailVC.m */; };
+		57518D3B1F500F43000F668E /* PodDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57518D391F500F43000F668E /* PodDetailVC.xib */; };
 		57C42D201F4E77C00012C829 /* AddDependenceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C42CF11F4E75C90012C829 /* AddDependenceVC.m */; };
 		57C42D211F4E77D90012C829 /* Dependency.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C42CF51F4E75C90012C829 /* Dependency.m */; };
 		57C42D221F4E77D90012C829 /* PodDeleteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C42CF81F4E75C90012C829 /* PodDeleteCell.m */; };
@@ -45,6 +47,9 @@
 		573F42F51F4EC99A004A7270 /* CreateRepo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateRepo.xib; sourceTree = "<group>"; };
 		573F42F81F4EE6D6004A7270 /* RepoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepoModel.h; sourceTree = "<group>"; };
 		573F42F91F4EE6D6004A7270 /* RepoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepoModel.m; sourceTree = "<group>"; };
+		57518D371F500F43000F668E /* PodDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodDetailVC.h; sourceTree = "<group>"; };
+		57518D381F500F43000F668E /* PodDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PodDetailVC.m; sourceTree = "<group>"; };
+		57518D391F500F43000F668E /* PodDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PodDetailVC.xib; sourceTree = "<group>"; };
 		57C42CF01F4E75C90012C829 /* AddDependenceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddDependenceVC.h; sourceTree = "<group>"; };
 		57C42CF11F4E75C90012C829 /* AddDependenceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddDependenceVC.m; sourceTree = "<group>"; };
 		57C42CF21F4E75C90012C829 /* AddDependenceVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddDependenceVC.xib; sourceTree = "<group>"; };
@@ -168,9 +173,44 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		57518D331F500F1F000F668E /* PodDetail */ = {
+			isa = PBXGroup;
+			children = (
+				57518D341F500F1F000F668E /* Controller */,
+				57518D351F500F1F000F668E /* Model */,
+				57518D361F500F1F000F668E /* View */,
+			);
+			path = PodDetail;
+			sourceTree = "<group>";
+		};
+		57518D341F500F1F000F668E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				57518D371F500F43000F668E /* PodDetailVC.h */,
+				57518D381F500F43000F668E /* PodDetailVC.m */,
+				57518D391F500F43000F668E /* PodDetailVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		57518D351F500F1F000F668E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57518D361F500F1F000F668E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		57C42CED1F4E75C90012C829 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				57518D331F500F1F000F668E /* PodDetail */,
 				573F42EF1F4EC8B7004A7270 /* CreateRepo */,
 				57C42CEE1F4E75C90012C829 /* AddDpend */,
 				57C42CFF1F4E75C90012C829 /* CreatePod */,
@@ -422,6 +462,7 @@
 				5722075B1F4E6B5B00DFC686 /* __PodTemplate__.zip in Resources */,
 				573528351F4D864D005B70BB /* Main.storyboard in Resources */,
 				573527EF1F4D81D5005B70BB /* Assets.xcassets in Resources */,
+				57518D3B1F500F43000F668E /* PodDetailVC.xib in Resources */,
 				573F42F71F4EC99A004A7270 /* CreateRepo.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +533,7 @@
 				57C42D261F4E77D90012C829 /* CreatePodVC.m in Sources */,
 				57C42D271F4E77D90012C829 /* DataManager.m in Sources */,
 				57C42D281F4E77D90012C829 /* MainController.m in Sources */,
+				57518D3A1F500F43000F668E /* PodDetailVC.m in Sources */,
 				57C42D2A1F4E77D90012C829 /* PodCell.m in Sources */,
 				57C42D2B1F4E77D90012C829 /* RepoCell.m in Sources */,
 				57C42D2C1F4E77D90012C829 /* AppDelegate.m in Sources */,

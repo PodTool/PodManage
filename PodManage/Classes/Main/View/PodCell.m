@@ -53,11 +53,17 @@
 
 - (IBAction)updateAction:(NSButton *)sender {
     
-    
+    if ([self.delegate respondsToSelector:@selector(podCell:didClickBtnAtIndex:)]) {
+        
+        [self.delegate podCell:self didClickBtnAtIndex:0];
+    }
 }
 - (IBAction)detailAction:(NSButton *)sender {
     
-    
+    if ([self.delegate respondsToSelector:@selector(podCell:didClickBtnAtIndex:)]) {
+        
+        [self.delegate podCell:self didClickBtnAtIndex:1];
+    }
 }
 #pragma mark - getters and setters
 

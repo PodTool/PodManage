@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <MJExtension/MJExtension.h>
-
+#import "Dependency.h"
 
 @interface PodModel: NSObject
 
@@ -19,6 +19,6 @@
 @property (copy,nonatomic) NSString *homeUrl;
 @property (copy,nonatomic) NSString *podUrl;
 @property (copy,nonatomic) NSString *podDir;
-@property (strong,nonatomic) NSMutableArray *myDependency;
+@property (strong,nonatomic) NSMutableArray <Dependency *> *myDependency;
 
 @end

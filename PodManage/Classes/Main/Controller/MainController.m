@@ -11,13 +11,14 @@
 #import "PodCell.h"
 #import "CreatePodVC.h"
 #import "CreateRepo.h"
+#import "PodDetailVC.h"
 
 #import "DataManager.h"
 
 #import "RepoModel.h"
 #import "PodModel.h"
 
-@interface MainController ()<NSTableViewDataSource,NSTableViewDelegate>
+@interface MainController ()<NSTableViewDataSource,NSTableViewDelegate,PodCellDelegate>
 
 @property (weak) IBOutlet NSTableView *repoTableView;
 @property (weak) IBOutlet NSTableView *podTableView;
@@ -66,6 +67,17 @@
 #pragma mark - public
 
 #pragma mark - delegate
+#pragma mark - PodCellDelegate
+- (void)podCell:(PodCell *)podCell didClickBtnAtIndex:(NSInteger)index {
+
+    if (index == 1) {
+        
+        PodDetailVC *detailVC = [[PodDetailVC alloc] init];
+        PodModel *podModel = self.selectRepo.children[podCell.row];
+        detailVC.podModel = podModel;
+        [self presentViewControllerAsModalWindow:detailVC];
+    }
+}
 #pragma mark - NSTableViewDataSource
 - (CGFloat)tableView:(NSTableView *)tableView heightOfRow:(NSInteger)row {
 
@@ -103,6 +115,8 @@
     } else {
 
         PodCell *cell = [tableView makeViewWithIdentifier:@"podCell" owner:nil];
+        cell.row = row;
+        cell.delegate = self;
         PodModel *podModel = self.selectRepo.children[row];
         
         cell.nameLabel.stringValue = podModel.name;

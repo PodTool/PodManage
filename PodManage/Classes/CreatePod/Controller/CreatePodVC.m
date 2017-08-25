@@ -64,7 +64,6 @@
         
         NSData *data = [fileHandler availableData];
         NSString *text = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-        NSLog(@"执行结果：%@",text);
         dispatch_async(dispatch_get_main_queue(), ^{
            
             [weakSelf.resultString appendFormat:@"\n %@",text];
